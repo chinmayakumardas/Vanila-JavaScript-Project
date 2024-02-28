@@ -1,4 +1,4 @@
-const endDate = "24 March 2025 10:20:00 PM"
+const endDate = "24 March 2025 10:58:00 PM"
 const inputs=document.querySelectorAll("input");
 //const clock
 
@@ -11,6 +11,10 @@ const clock=()=>{
 
     const diff=(end-now)/1000;
     console.log(diff);//it show in sec
+    
+    if(diff<0){//used this condition because to when the timer is time is passed then it show minus value to overcome this we used this  .It show o after timer is end
+        return;
+    }
    inputs[0].value= Math.floor(diff/3600/24);
    inputs[1].value= Math.floor((diff/3600)%24);
    inputs[2].value= Math.floor((diff/60)%60);

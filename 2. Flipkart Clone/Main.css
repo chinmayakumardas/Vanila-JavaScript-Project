@@ -13,8 +13,21 @@
   background-color: #ffffff;
 }
 #catagory {
-  height: 20vh;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: space-around;
+  padding-inline: 30px;
+  padding-top: 20px;
 }
+
+
+
+
+
+
+
 #scroll-bar {
   height: 20vh;
 }
@@ -29,17 +42,30 @@
    padding-right: 5px;
     gap: 2px;
 }
-
+#Top-deals{
+    width: 100%;
+}
+.top-deal{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    gap: 60%;
+    padding-inline: 10px;
+    cursor: pointer;
+}
 .rounded {
     justify-content: center;
     align-self: center;
-    height: 18px;
-    width: 18px;
-    background: #2954E2;
+    height: 22px;
+    width: 22px;
+
     color: #ffffff;
     border-radius: 25px ;
 }
-
+.rounded i{
+    padding-inline: 5.5px;
+    padding-block: 4px;
+}
 .tpdeal{
     font-size: 25px ;
     font-weight: 500; 
@@ -48,14 +74,59 @@
 }
 
 .top-deal .rounded {
-    background-color: green;
+    background-color: #2954E2;
     border-radius: 50%;
-    padding: 4px; 
+     
   }
   
   .top-deal .rounded i {
     color: white;
+    
   }
+
+
+
+.cards{
+    cursor: pointer;
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 10px;
+   padding-inline: 10px;
+   padding-block: 10px;
+   overflow-x: hidden;
+   justify-content: space-around;
+   height: 220px;
+   overflow-y: hidden;
+   
+}
+.card{
+   
+    
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 150px;
+   border-radius: 5px    ;
+   border-style: solid;
+   border-color: #E0E0E0;
+}
+.card img{
+    
+    padding-inline: 8px;
+    padding-block: 8px;
+    height: 155px ;
+    width: 150px;
+    object-fit: contain;
+}
+.card p,h3{
+    margin-left: 10px;
+    width: 140px;
+}
+
+
+
+
 
 #static-div-2 {
     display: flex;

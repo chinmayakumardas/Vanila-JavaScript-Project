@@ -5,15 +5,67 @@
     display: flex;
     flex-direction: column;
     color: white;
+    padding-inline: 20px;
+    padding-block: 20px;
 }
 .upper{
-    height: 1rem;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.upper p{
+    color: #878787;
+    font-size: 12px;
+  font-size: normal;
+  font-size: 400;
+  margin-bottom: 5px;
+}
+.upper a{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.big-div .lstext{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
 }
 .divider{
- height: 10px;
+ height: 1px;
  background-color: #464D5F;
+ width: 100%;
 }
 .lower{
-   height:1rem; 
+   height: 20%; 
+   display: flex;
+   justify-content: space-around;
 }
-.footer 
+.small-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lower .small-div p{
+    font-size: 12px;
+  font-size: normal;
+  font-size: 400;
+}
+
+.big-div{
+    display: flex;
+    flex-direction: column;
+}
+.social{
+
+    display: flex;
+    flex-direction: row;
+}
+.social a{
+    background-color: ;
+}

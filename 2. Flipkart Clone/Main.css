@@ -1,20 +1,82 @@
-.main-div{
-    display: flex;
-    flex-direction: column;
-    padding-top: 4.5rem;
-    padding-bottom: 10px;
-    background-color: #C7C6D0;
-    gap: 10px;
-    padding-left: 8%;
-    padding-right: 8%;
-    
-   
+.main-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  padding-bottom: 10px;
+  background-color: #f1f2f4;
+  gap: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
 }
-.sub-divs{
-    width: 100%;
-    background-color: #FFFFFF;
+.sub-divs {
+  width: 100%;
+  background-color: #ffffff;
+}
+#catagory {
+  height: 20vh;
+}
+#scroll-bar {
+  height: 20vh;
 }
 
-#scroll-bar{
-    height: 20vh;
+#static-div-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  overflow-x: hidden;
+  padding-block: 5px;
+   padding-left: 5px;
+   padding-right: 5px;
+    gap: 2px;
 }
+
+.rounded {
+    justify-content: center;
+    align-self: center;
+    height: 18px;
+    width: 18px;
+    background: #2954E2;
+    color: #ffffff;
+    border-radius: 25px ;
+}
+
+.tpdeal{
+    font-size: 25px ;
+    font-weight: 500; 
+    padding-block: 5px;
+    padding-inline: 10px;
+}
+
+.top-deal .rounded {
+    background-color: green;
+    border-radius: 50%;
+    padding: 4px; 
+  }
+  
+  .top-deal .rounded i {
+    color: white;
+  }
+
+#static-div-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 8px;
+    padding-inline: 8px;
+    gap: 8px;
+}
+#static-div-2 img {
+      width: calc(33.33% - 6px); 
+  }
+  #static-div-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-block: 8px;
+    padding-inline: 8px;
+    gap: 8px;
+}
+#static-div-3 img {
+      width: calc(33.33% - 6px); /* Adjust width and margin as needed */
+
+  }

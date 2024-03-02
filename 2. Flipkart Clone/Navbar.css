@@ -1,21 +1,22 @@
+
 .nav-bar{
-    /* background-color: #cbf3f0; */
+    background-color: #FFFFFF;
     display: flex;
     padding: 10px 10px;
     gap: 20px;
     align-items: center;
     padding-inline: 150px;
-    border-bottom: 5px solid #ffffff;
-    position: sticky;
+   width: 100%;
+    position: fixed;
     
 }
 .search-box{
     padding: 5px ;
     display: inline;
     position: relative;
-    background-color:#F0F5FF ;
 }
 .fa-search {
+    background-color:#F0F5FF ;
     position: absolute;
     top: 50%;
     left: 15px; 
@@ -41,7 +42,7 @@
     cursor: pointer;
 }
 .profile{
-  
+  background-color: #F0F5FF;
 }
 .profile button{
     cursor: pointer;

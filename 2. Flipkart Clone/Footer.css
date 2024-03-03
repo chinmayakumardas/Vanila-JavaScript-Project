@@ -7,6 +7,7 @@
     color: white;
     padding-inline: 20px;
     padding-block: 20px;
+    z-index: 1;
 }
 .upper{
     height: 80%;

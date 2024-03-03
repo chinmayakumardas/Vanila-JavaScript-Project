@@ -17,3 +17,7 @@ body{
 @media screen {
     
 }
+
+.flex{
+    display: flex;
+}

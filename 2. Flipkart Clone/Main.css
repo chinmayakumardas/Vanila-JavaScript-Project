@@ -13,7 +13,7 @@
   background-color: #ffffff;
 }
 #catagory {
-  height: 15vh;
+  height: 25vh;
   display: flex;
   flex-direction: row;
   gap: 10px;

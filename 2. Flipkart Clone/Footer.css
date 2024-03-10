@@ -8,6 +8,7 @@
     padding-inline: 20px;
     padding-block: 20px;
     z-index: 1;
+    position: relative;
 }
 .upper{
     height: 80%;

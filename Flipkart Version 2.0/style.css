@@ -31,11 +31,37 @@ a{
     text-decoration: none;
     display: inline-block;
 }
-#wrapper{
-    background-color: var(--primary-color);
-}
 .flex{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--primary-color);
+    margin-bottom: 0;
+    
+}
+.footer{
+    background-color: red;
+}
+.main-div{
+   position:relative ;
+   margin-top: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--secondary-color);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-block: 10px;
+   
+}
+.main-div div{
+    background-color: var(--primary-color);
+    
+    padding-block: 10px;
 }

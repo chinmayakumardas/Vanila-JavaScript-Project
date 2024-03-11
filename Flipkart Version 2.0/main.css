@@ -126,11 +126,102 @@ overflow: hidden;
 
 /* footer styarted */
 
+.footer{
+  background-color: #212121;
+  height:;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding-inline: 20px;
+  padding-block: 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.divider{
+  height: 1px;
+  background-color: #464D5F;
+  width: 100%;
+ }
+ .upper{
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.upper p{
+  color: #878787;
+  font-size: 12px;
+font-size: normal;
+font-size: 400;
+margin-bottom: 5px;
+}
+.upper a{
+  margin-bottom: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+.big-div .lstext{
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+font-style: normal;
+font-weight: 400;
+}
+
+
+
+.lower{
+  height: 20%; 
+  display: flex;
+  justify-content: space-around;
+}
+.small-div{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lower .small-div p{
+  font-size: 12px;
+font-size: normal;
+font-size: 400;
+}
+
+.big-div{
+  display: flex;
+  flex-direction: column;
+}
+.social{
+
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media query started */
-@media (max-width: 1100px) {
+@media (max-width: 1000px) {
   .category-sub img {
     width: calc(33%-5px);
+  }
+  .lower,.divider{
+    display: none;
   }
 
   .ads-section-1 img {
@@ -139,6 +230,9 @@ overflow: hidden;
 }
 @media (max-width: 771px) {
   .category div {
+  }
+  .footer{
+    display: none;
   }
 }
 

@@ -38,6 +38,18 @@
   font-style: normal;
   font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .divider{
  height: 1px;
  background-color: #464D5F;
@@ -48,6 +60,24 @@
    display: flex;
    justify-content: space-around;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .small-div{
     display: flex;
     align-items: center;

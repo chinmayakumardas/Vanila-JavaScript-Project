@@ -45,7 +45,7 @@ a{
     
 }
 .footer{
-    background-color: red;
+    background-color: var(--secondary-text-color);
 }
 .main-div{
    position:relative ;

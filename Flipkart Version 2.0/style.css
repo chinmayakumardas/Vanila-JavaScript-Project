@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 :root{
     --primary-color:#FFFFFF;
     --secondary-color:#F1F2F4;
@@ -36,17 +37,34 @@ a{
     flex-wrap: wrap;
     align-items: center;
 }
-#wrapper{
+#wrapper {
     display: flex;
     flex-direction: column;
     gap: 15px;
     background-color: var(--primary-color);
+    min-height: 100vh; /* Set minimum height to 100% of the viewport height */
     margin-bottom: 0;
     
 }
-.footer{
-    background-color: var(--secondary-text-color);
+
+.footer {
+    background-color: #212121;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-inline: 20px;
+    padding-block: 20px;
+    z-index: 1;
+    position: relative;
+   bottom: 10px;
+   
+  
+   
 }
+
+
 .main-div{
    position:relative ;
    margin-top: 70px;

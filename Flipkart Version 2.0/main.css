@@ -49,28 +49,92 @@
   gap: 8px;
 }
 #static-div-2 img {
-    width: calc(33.33% - 6px); 
+  width: calc(33.33% - 6px);
 }
 
-.featured-brand{
+.best-deals {
+  height: 350px;
+}
+#best-deals-1 {
+}
+.upper-deal span{
+  color: white;
+  background-color: Blue;
+  height: 25px;
+  width: 25px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.upper-deal {
+  height: 15%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 20px;
+  font-weight: 600;
+  font-size:large;
+}
+
+.lower-deal {
+  position: relative;
+  height: 80%;
+overflow: hidden;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  /* justify-content: space-between; */
+  justify-content: space-evenly;
+  padding-inline: 10px;
+  padding-block: 10px;
+  row-gap: 10px;
+  /* column-gap: 10px; */
+  margin-inline: 5px;
+  margin-block:auto;
+ 
 
 }
-#featured{
-  
+.cards{
+  height: 250px;
+  width: 200px;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;padding-block: 5px;
+  line-height: 3px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
 }
+
+.cards img{
+  object-fit: contain;
+  height: 80%;
+}
+
+.extras{
+  padding-inline: 5px;
+}
+
+
+
+
+
+
+
+/* footer styarted */
+
 
 /* media query started */
 @media (max-width: 1100px) {
   .category-sub img {
-    width:calc(33%-5px);
- 
+    width: calc(33%-5px);
   }
 
-
-  .ads-section-1 img{
-   
+  .ads-section-1 img {
     /* height: 100px; */
-    
   }
 }
 @media (max-width: 771px) {

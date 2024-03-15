@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+    <link rel="stylesheet" href="Form.css" />
+    <script src="./Form.js"></script>
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <form id="form" class="">
+        <div class="top">
+          <p>One Time Registration</p>
+          <h2>Personal Details</h2>
+        </div>
+        <div class="divider"></div>
+        <div class="question-div">
+          <label for="aadhaar">1. Do you hava a Adhaar Card ?</label>
+
+          <div class="ans-div">
+            <div class="choice">
+              <input type="radio" name="aadhaar" id="yes" />
+              <label for="yes">Yes</label>
+              <input type="radio" name="aadhaar" id="no" />
+              <label for="no">No</label>
+            </div>
+            <label for="aadhaar-number-1" >a. Aadhaar card Number</label>
+            <input type="text" name="aadhaar-number" id="aadhaar-number-1"/>
+            <label for="aadhaar-number-2">b. Verify Aadhaar card Number</label>
+            <input type="text" name="aadhaar-number" id="aadhaar-number-2"/>
+          </div>
+        </div>
+        <div class="question-div">
+          <label for="id-card-type">2. Type of Identification Card</label>
+            
+          <div class="ans-div">
+            <div class="choice">
+              <select class="card" name="id-card-type" id="id-card-type">
+                <option value="PanCard">PanCard</option>
+                <option value="VoterId">VoterId</option>
+                <option value="Ration Card">Ration Card</option>
+                <option value="PassPort">PassPort</option>
+              </select>
+            </div>
+            <label for="id-card-no">a. Identification card Number</label>
+            <input type="text" name="id-card-no" id="id-card-no"/>
+          </div>
+        </div>
+        <div class="question-div">
+            <label for="have-adhar">3. Candidate Name  (As matriculation Certificate)</label>
+            <input type="text" id="have-adhar" />
+            <label for="">1. Candidate Name should be same as mentioned in matriculation Certificate.</label>
+            <label for="">2. Please enter name without any salutation(i.e Shri/Smt/Mr/Mrs/Dr/Prof).</label>
+            
+            <div class="ans-div">
+               <label for="">a.Verify candidate Name(As per Matriculation Certificate)</label>
+                <input type="text" />
+            </div>
+          </div>
+        <div class="question-div">
+            <label for="">4. Have you changed Name?</label>
+  
+            <div class="ans-div">
+              <div class="choice">
+                <input type="radio" name="changed-name" id="changed-name-1" />
+                <label for="changed-name-1">Yes</label>
+                <input type="radio" name="changed-name" id="changed-name-2" />
+                <label for="changed-name-2">No</label>
+              </div>
+              <label for="">a. New Name/Changed Name</label>
+              <input type="text" />
+              <label for="">b. Verify New Name/Changed Name </label>
+              <input type="text" />
+            </div>
+        </div>
+        <div class="question-div"></div>
+        <div class="question-div"></div>
+        <div class="question-div"></div>
+        <div class="question-div"></div>
+      </form>
+    </div>
+  </body>
+</html>

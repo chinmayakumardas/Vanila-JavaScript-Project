@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background: url(./sunset-7865844_1280.jpg); */
+  background-size: cover;
+  background: url(./sunset-7865844_1280.jpg);
+  object-fit: contain;
+  padding: 10% 25%;
+}
+
+.wrapper {
+  height: 50vh;
+  width: 50vw;
+  /* background-color: red;
+    border:10px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.div-1 {
+  position: absolute;
+  left: 550px;
+  top: -10px;
+  width: 150px;
+  height: 1rem;
+  background-color: #303134;
+}
+.div-2 {
+  border: 10px solid #303134;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.9;
+  height: 80rem;
+  outline: 2px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+/* #divider {
+  background-color: azure;
+  height: 10em;
+  width: 5em;
+  font-size: 10px;
+  font-weight: 900;
+} */
+.hour{
+    background-color: wheat;
+    height: 10em;
+    width: 1em;
+}
+.hours {
+  height: 10em;
+  width: 10em;
+  background-color: aqua;
+}
+.div-3 {
+  opacity: 0.9;
+  width: 500px;
+  height: 1.5rem;
+  background-color: #303134;
+  border-radius: 5px;
+  position: absolute;
+  left: 138px;
+  top: 340px;
+}
